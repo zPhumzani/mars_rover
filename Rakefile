@@ -12,7 +12,7 @@ task :test do
   sh "rspec spec/ -fd"
 end
 
-desc "Executes the ruby mars-rover program with mars-rover.in as input"
+desc "Executes the ruby mars_rover program with cord.in as input"
 task :execute do
-  sh "ruby lib/mars_rover.rb mars-rover.in"
+  sh "ruby lib/mars_rover.rb cord.in"
 end
