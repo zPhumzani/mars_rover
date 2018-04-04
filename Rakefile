@@ -7,7 +7,7 @@ task default: [:test_drive, :drive]
 
 desc "Runs all the tests"
 task :test_drive do
-  sh "rspec spec/ -fd"
+  sh "rspec spec/"
 end
 
 desc "Executes the ruby mars_rover program with cord.in as input"
