@@ -3,7 +3,7 @@ require_relative "./mars_rover/rover"
 require_relative "./mars_rover/operator"
 
 module MarsRover
-  plateau = ARGF.gets
+  cli = ARGF.gets
   results = []
 
   while !ARGF.eof
