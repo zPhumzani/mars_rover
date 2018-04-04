@@ -9,13 +9,19 @@ Copy and paste to your terminal:
     $ git clone https://github.com/zPhumzani/mars_rover.git
 
 
-And then execute:
-
-    $ bundle
-
 ## Usage
 
-   $ `rake execute`
+And then execute:
+
+    $ cd mars_rover
+
+To install dependencies run:
+    
+    $ bundle exec rake install
+
+To execute
+
+   $ rake drive
 
 ## Development
 
