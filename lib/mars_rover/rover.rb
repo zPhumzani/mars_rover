@@ -8,10 +8,12 @@ class Rover
      @position = current_position
   end
 
+  # move the rover left
   def turn_left
     @direction = @direction.turn_left
   end
 
+  # move the rover right
   def turn_right
     @direction = @direction.turn_right
   end

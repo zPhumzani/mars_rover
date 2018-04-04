@@ -1,14 +1,16 @@
 module Directions
+
+  # to move the mars rover
   def self.go(direction)
      case
-       when direction == 'N'
-         NORTH
-       when direction == 'E'
-         EAST
-       when direction == 'W'
-         WEST
-       when direction == 'S'
-         SOUTH
+        when direction == 'N'
+          NORTH
+        when direction == 'E'
+          EAST
+        when direction == 'W'
+          WEST
+        when direction == 'S'
+          SOUTH
       end
   end
 
