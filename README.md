@@ -1,28 +1,21 @@
 # MarsRover
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mars_rover`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[Mars Rover Tech Challenge](https://code.google.com/archive/p/marsrovertechchallenge/)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Copy and paste to your terminal:
 
-```ruby
-gem 'mars_rover'
-```
+    $ git clone https://github.com/zPhumzani/mars_rover.git
+
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install mars_rover
-
 ## Usage
 
-TODO: Write usage instructions here
+   $ `rake execute`
 
 ## Development
 
