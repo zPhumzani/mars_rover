@@ -23,6 +23,11 @@ To run:
 
     $ rake drive
 
+This command will run `ruby lib/mars_rover.rb cord.in`.
+If you want to use your own script:
+
+	$ ruby lib/mars_rover.rb <file diretory>
+
 To run test:
 
 	$ rake test_drive
